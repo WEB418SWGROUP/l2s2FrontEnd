@@ -1,2 +1,0 @@
-react class
-"# doubtforum-front" 
