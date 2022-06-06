@@ -1,0 +1,217 @@
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background: linear-gradient(to bottom, #fdfdfa  0%,  white 100%);
+    border-bottom:2px solid rgb(202, 192, 192);
+    
+  }
+
+  .navbarList{
+    float: right;
+    padding: 13px 15px;
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  .navbarLogo{
+    float: left;
+  }
+  .packagebox{
+    border-radius: 25px 25px  0px 0px;
+    /* border: 2px solid gray; */
+    padding: 1%; 
+    width: auto;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 7px 25px 0 rgba(0, 0, 0, 0.068);
+  }
+
+  
+  .boxy{
+      width: auto;
+      height: auto; 
+       background: linear-gradient(to bottom, #fafaf2f6	 	    0%, 
+        rgba(248, 245, 245, 0.76) 100%);  
+     padding-top: 2% ;
+      border-bottom: 2px solid #ccccb3;
+      /* background-size: contain; */
+      /* transform: rotate(180deg);
+      background-repeat: no-repeat; */
+  }
+
+  .packageName{
+       font-size: 250%;
+       padding: 0;
+       margin: 0%;
+       text-align: center;
+       font-family: Brush Script MT;
+  }
+
+  .packageFeatureList{
+    list-style: none;
+    margin: 0%;
+    font-size:17px;
+    padding-left: 9%;
+    padding-top: 0%;
+    padding-bottom: 2%;
+  }
+
+  .subButton {
+  background-color: #000033; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 5%;
+  cursor: pointer;
+  padding: 4% 2%;
+  width: 100%;
+  font-weight: bold;
+  
+  /* box-shadow: 5px 10px 8px 5px #888888; */
+
+}
+
+.postComment{
+  background-color: #000033; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin-left: 10%;
+  width: 20%;
+  cursor: pointer;
+  padding: 2%;
+}
+.paymentBox{
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+  margin: 12%;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 2%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+.seemore{
+  text-align: right;
+  color: #0c2472;
+  font-size: large;
+  margin-top: 0;
+  
+}
+
+.equaldivider {
+  float: left;
+  width: 50%;
+  padding: 2%;
+}
+.quarterdivider {
+  float: left;
+  width: 25%;
+  padding: 2%;
+  /* border: 1px solid black; */
+}
+
+
+.freeTrial {
+  background-color: #2d8d1a; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  /* margin-top: 5%; */
+  cursor: pointer;
+  padding: 4% 2%;
+  width: 50%;
+  font-weight: bold;
+  
+  /* box-shadow: 5px 10px 8px 5px #888888; */
+
+}
+
+.textComment{
+  width:80%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 2%;
+}
+footer{
+
+  background-color: rgb(199, 198, 198);
+  padding: 1px;
+  text-align: center;
+}
+
+.paymentfield{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid gray;
+  padding: 1px;
+  margin: 8px 0;
+  font-size: 18px;
+  color:  #8a8a5c;
+  
+}
+input:focus {
+  outline: none;
+  border-bottom: 2px solid gray;
+}
+
+
+.adminNav{
+  width: 20%;
+  height: 100%;
+  background-color: #dbdbdd;
+  position: fixed;
+  float: left;
+}
+.adminWork{
+  width: 100%;
+  height: 100%;
+  background-color: #282858;
+  /* position: fixed; */
+  float: left;
+}
+@media screen and (max-width: 800px) {
+  .column,.equaldivider {
+    width: 100%;
+    
+  }
+  .quarterdivider{
+    width: 100%;
+  } 
+  .freeTrial{
+    width: 100%;
+  }
+}
