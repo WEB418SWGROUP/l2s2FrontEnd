@@ -15,6 +15,12 @@ import AdminNav from './Components/adminNav';
 // import PaymentPage from './Components/paymentpage';
 // import Counter from './Trial/counter';
 
+import "react-bootstrap/dist/react-bootstrap";
+import "bootstrap/dist/css/bootstrap.css"
+import PostRequirement from './pages/PostRequirement';
+import GetPostRequirements from './pages/GetPostRequirements';
+import Home from './pages/Home';
+
 function App() {
   return (
     <>
@@ -28,6 +34,9 @@ function App() {
        <Route path='payment' element = {<PaymentPage/>}/>
        <Route path='admin-sub' element = {<Admpackage/>}/>
        <Route path='admin-work' element = {<AdminNav/>}/>
+       <Route path="/postRequirement" element={<PostRequirement />} />
+       <Route path="/getPostRequirements" element={<GetPostRequirements />} />
+       <Route path="/sc" element={<Home />} />
        </Routes>
      {/* <Footer/> */}
     </>
