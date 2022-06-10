@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .body {
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rectangle-55 {
+    background-color: rgba(149, 202, 249, 1);
+    border-radius: 213px;
+    justify-content: center;
+    position: absolute;
+    height: 140px;
+    width: 767px;
+  }
+  .bg {
+    background-image: url(bg-1@2x.png);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center center;  
+    background-size: cover; 
+  }
+
+  @import url("https://fonts.googleapis.com/css?family=Poppins:400,600,800|Pompiere:400|Passion+One:400");
+
+.we-are-here-to-help {
+  color: var(--black);
+  font-family: var(--font-family-pompiere);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  letter-spacing: 0;
+  min-height: 134px;
+  text-align: center;
+  width: 789px;
+}
+
+.span0 {
+  font-size: var(--font-size-l);
+}
+
+.span1 {
+  font-family: var(--font-family-passion_one);
+  font-size: var(--font-size-m);
+}
+
+.browser {
+    background-color: var(--white);
+    border-radius: 18px;
+    box-shadow: 10px 14px 25px 
+  #8792a10f, 10px 4px 4px 
+  #8792a114;
+    height: 533px;
+    width: 719px;
+  }
+
+  
+
+  
+
